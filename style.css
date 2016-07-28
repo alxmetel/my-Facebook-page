@@ -1,0 +1,1803 @@
+body{
+	background-color: #E9EBEE;
+}
+.top{
+	position:fixed;
+	width:100%;
+	height:43px;
+	background:#3b5998;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+}
+#topFBLogo{
+	left:66px;
+	height:25px;
+	top:9px;
+}
+#topSearchBar{
+	top:9px;
+	left:97px;
+	height:25px;
+}
+#topSearchBox{
+	width:402px;
+	height:24px;
+	background:white;
+	padding:7px;
+	outline:none;
+	border:none;
+	border-radius: 2px/2px;
+	font-size:14px;
+	font-family:helvetica;
+}
+#topSearchButton{
+	top:9px;
+	left:497px;
+	height:25px;
+}
+#topProfilePhoto{
+	top:9px;
+	left:741px;
+	height:25px;
+}
+#topProfileName{
+	top:14px;
+	left:772px;
+	height:25px;
+	font-size:12px;
+	font-weight: bold;
+	font-family:helvetica;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+#topVerticalDivider1{
+	border-left:1px solid #354F88;
+	top:12px;
+	left:841px;
+	height:18px;
+}
+#topHome{
+	top:14px;
+	left:852px;
+	height:25px;
+	font-size:12px;
+	font-weight: bold;
+	font-family:helvetica;
+}
+#topFriendRequests{
+	top:9px;
+	left:914px;
+	height:25px;
+}
+#topMessages{
+	top:10px;
+	left:947px;
+	height:25px;
+}
+#topNotifications{
+	top:9px;
+	left:982px;
+	height:25px;
+}
+#topVerticalDivider2{
+	border-left:1px solid #354F88;
+	top:12px;
+	left:1022px;
+	height:18px;
+}
+#topPrivacyShortcuts{
+	top:10px;
+	height:25px;
+	left:1036px;
+}
+#topAddMenu{
+	top:12px;
+	height:25px;
+	left:1062;
+}
+.sidebar{
+	top:44px;
+	left:55px;
+	position:absolute;
+	width:180px;
+	height:936px;
+	font-family:helvetica;
+}
+
+#sidebarNameGeneral{
+	top:5px;
+	left:28px;
+	width:118px;
+	height:16px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+#sidebarProfile{
+	top:11px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarProfileIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+#sidebarPrifileName{
+	top:5px;
+	left:28px;
+	width:180px;
+	height:16px;
+}
+
+#sidebarEditProfile{
+	top:35px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarEditProfileIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarYourPosts{
+	top:59px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarYourPostsIcon{
+	top:3px;
+	left:7px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarSectionFavorites{
+	top:96px;
+	left:11px;
+	width:184px;
+	height:16px;
+	font-size:11px;
+	font-weight: bold;
+	color:#666666;
+}
+
+#sidebarNewsFeed{
+	top:109px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+	font-weight: bold;
+}
+#sidebarNewsFeedIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarPagesFeed{
+	top:133px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarPagesFeedIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarTech{
+	top:157px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarTechIcon{
+	top:4px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarLifestyle{
+	top:181px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarLifestyleIcon{
+	top:4px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarNews{
+	top:205px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarNewsIcon{
+	top:4px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarPagesAndPublicFigures{
+	top:229px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarPagesAndPublicFiguresIcon{
+	top:4px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarSaved{
+	top:253px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarSavedIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarMessages{
+	top:277px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarMessagesIcon{
+	top:4px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarEvents{
+	top:301px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarEventsIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarFriends{
+	top:325px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarFriendsIcon{
+	top:4px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarSectionGroups{
+	top:362px;
+	left:11px;
+	width:184px;
+	height:16px;
+	font-size:11px;
+	font-weight: bold;
+	color:#666666;
+}
+
+#sidebarGroupWeeklyIT{
+	top:375px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarGroupWeeklyITIcon{
+	top:3px;
+	left:8px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarGroupRunning{
+	top:399px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarGroupRunningIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarGroupJava1{
+	top:423px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarGroupJava1Icon{
+	top:4px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarGroupJava2{
+	top:447px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarGroupJava2Icon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarDiscoverGroups{
+	top:471px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarDiscoverGroupsIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarCreateGroup{
+	top:495px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarCreateGroupIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarSectionFriends{
+	top:532px;
+	left:11px;
+	width:184px;
+	height:16px;
+	font-size:11px;
+	font-weight: bold;
+	color:#666666;
+}
+#sidebarFamily{
+	top:545px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarFamilyIcon{
+	top:4px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+#sidebarCloseFriends{
+	top:569px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarCloseFriendsIcon{
+	top:4px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarSectionApps{
+	top:606px;
+	left:11px;
+	width:184px;
+	height:16px;
+	font-size:11px;
+	font-weight: bold;
+	color:#666666;
+}
+#sidebarLiveVideo{
+	top:619px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarLiveVideoIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+#sidebarGames{
+	top:643px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarGamesIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+#sidebarOnThisDay{
+	top:667px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarOnThisDayIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+#sidebarPhotos{
+	top:691px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarPhotosIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+#sidebarSuggestEdits{
+	top:715px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarSuggestEditsIcon{
+	top:4px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+#sidebarPokes{
+	top:739px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarPokesIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+#sidebarGamesFeed{
+	top:763px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarGamesFeedIcon{
+	top:6px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarSectionPages{
+	top:800px;
+	left:11px;
+	width:184px;
+	height:16px;
+	font-size:11px;
+	font-weight: bold;
+	color:#666666;
+}
+#sidebarLikePages{
+	top:813px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarLikePagesIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+#sidebarCreatePage{
+	top:837px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarCreatePageIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarSectionEvents{
+	top:874px;
+	left:11px;
+	width:184px;
+	height:16px;
+	font-size:11px;
+	font-weight: bold;
+	color:#666666;
+}
+#sidebarSubscribedEvents{
+	top:887px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarSubscribedEventsIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+#sidebarCreateEvent{
+	top:911px;
+	left:7px;
+	width:184px;
+	height:24px;
+	font-size:12px;
+}
+#sidebarCreateEventIcon{
+	top:3px;
+	left:6px;
+	width:20px;
+	height:20px;
+}
+
+#sidebarProfile:hover{background:#DDDFE2;}
+#sidebarEditProfile:hover{background:#DDDFE2;}
+#sidebarYourPosts:hover{background:#DDDFE2;}
+#sidebarNewsFeed:hover{background:#DDDFE2;}
+#sidebarPagesFeed:hover{background:#DDDFE2;}
+#sidebarTech:hover{background:#DDDFE2;}
+#sidebarLifestyle:hover{background:#DDDFE2;}
+#sidebarNews:hover{background:#DDDFE2;}
+#sidebarPagesAndPublicFigures:hover{background:#DDDFE2;}
+#sidebarSaved:hover{background:#DDDFE2;}
+#sidebarMessages:hover{background:#DDDFE2;}
+#sidebarEvents:hover{background:#DDDFE2;}
+#sidebarFriends:hover{background:#DDDFE2;}
+#sidebarGroupWeeklyIT:hover{background:#DDDFE2;}
+#sidebarGroupRunning:hover{background:#DDDFE2;}
+#sidebarGroupJava1:hover{background:#DDDFE2;}
+#sidebarGroupJava2:hover{background:#DDDFE2;}
+#sidebarDiscoverGroups:hover{background:#DDDFE2;}
+#sidebarCreateGroup:hover{background:#DDDFE2;}
+#sidebarFamily:hover{background:#DDDFE2;}
+#sidebarCloseFriends:hover{background:#DDDFE2;}
+#sidebarLiveVideo:hover{background:#DDDFE2;}
+#sidebarGames:hover{background:#DDDFE2;}
+#sidebarOnThisDay:hover{background:#DDDFE2;}
+#sidebarPhotos:hover{background:#DDDFE2;}
+#sidebarSuggestEdits:hover{background:#DDDFE2;}
+#sidebarPokes:hover{background:#DDDFE2;}
+#sidebarGamesFeed:hover{background:#DDDFE2;}
+#sidebarLikePages:hover{background:#DDDFE2;}
+#sidebarCreatePage:hover{background:#DDDFE2;}
+#sidebarSubscribedEvents:hover{background:#DDDFE2;}
+#sidebarCreateEvent:hover{background:#DDDFE2;}
+
+.post{
+	top:55px;
+	left:258px;
+	position:absolute;
+	width:500px;
+	height:151px;
+	background-color: #FFFFFF;
+	border-radius:2px/2px;
+	font-family:helvetica;
+}
+#postPhotoVideoIcon{
+	top:9px;
+	left:12px;
+	width:16px;
+	height:16px;
+}
+#postPhotoVideoName{
+	top:10px;
+	left:33px;
+	width:70px;
+	height:16;
+	font-size:12px;
+	font-weight: bold;
+	color:#365899;
+}
+#postVerticalDivider{
+	border-left:1px solid #CCCCCC;
+	top:10px;
+	left:113px;
+	height:18px;
+	width:2px;
+}
+#postPhotoAlbumIcon{
+	top:9px;
+	left:126px;
+	width:16px;
+	height:16px;
+}
+#postPhotoAlbumName{
+	top:10px;
+	left:147px;
+	width:80px;
+	height:16;
+	font-size:12px;
+	font-weight: bold;
+	color:#365899;
+}
+#postHorizontalDivider1{
+	top:20px;
+	left:12px;
+	width:476px;
+    height: 1px;
+	display: block;
+    border: 0;
+    border-top: 1px solid #E5E5E5;
+    margin: 1em 0;
+    padding: 0;
+}
+#postProfilePhoto{
+	top:49px;
+	left:12px;
+	width:30px;
+	height:30px;
+}
+#postTextbox{
+	top:56px;
+	left:58px;
+	width: 280px; 
+	height:25px; 
+	border:none; 
+    outline:0;
+	color:black;
+}
+#postTextboxPlaceholder{
+	width:429px;
+	height:25px;
+	padding:6px;
+	outline:none;
+	border: 0px none;
+	font-size:14px;
+	font-family:helvetica;
+}
+#postHorizontalDivider2{
+	top:94px;
+	left:0px;
+	width:500px;
+    height: 1px;
+	display: block;
+    border: 0;
+    border-top: 1px solid #E5E5E5;
+    margin: 1em 0;
+    padding: 0;
+}
+#postCustomButton{
+	top:119px;
+	left:324px;
+	width:98px;
+	height:24px;
+}
+#postPostButton{
+	top:119px;
+	left:432px;
+	width:60px;
+	height:24px;
+	background-color:#4267B2;
+	border: none;
+	color: white;
+	font-family:helvetica;
+	font-weight:bold;
+	font-size: 12px;
+}
+
+p1{color:#365899;font-family:helvetica;font-size:14px;font-weight:bold}
+p2{color:#90949C;font-family:helvetica;font-size:14px}
+p3{color:#365899;font-family:helvetica;font-size:14px}
+p4{color:#90949C;font-family:helvetica;font-size:12px}
+p5{color:black;font-family:helvetica;font-size:14px;line-height:220%}
+p6{color:black;font-family:helvetica;font-size:14px;line-height:140%}
+p7{color:#365899;font-family:helvetica;font-size:14px;line-height:140%}
+p8{color:#90949C;font-family:helvetica;font-size:12px}
+p9{color:#7F7F7F;font-family:helvetica;font-size:12px;font-weight:bold}
+p10{color:black;font-family:Georgia;font-size:18px;line-height:120%}
+p11{color:black;font-family:helvetica;font-size:12px}
+p12{color:#90949C;font-family:helvetica;font-size:11px}
+p13{color:#365899;font-family:helvetica;font-size:12px;font-weight:bold}
+p14{color:#90949C;font-family:helvetica;font-size:12px;line-height:140%}
+p15{color:#4267B2;font-family:helvetica;font-size:12px}
+p16{color:#90949C;font-family:helvetica;font-size:11px;font-weight:bold}
+p17{color:#538DFD;font-family:helvetica;font-size:12px;line-height:140%}
+p18{color:#538DFD;font-family:helvetica;font-size:12px;line-height:140%;text-decoration: underline}
+p19{color:#90949C;font-family:helvetica;font-size:11px;}
+
+
+.newsFeedPost1{
+	top:218px;
+	left:258px;
+	position:absolute;
+	width:500px;
+	height:383px;
+	background-color: #FFFFFF;
+	border-radius:2px/2px;
+}
+#newsFeedPost1ProfileIcon{
+	top:12px;
+	left:12px;
+	width:40px;
+	height:40px;
+}
+#newsFeedPost1Head{
+	top:14px;
+	left:61px;
+	width:300px;
+	height:13px;
+}
+#newsFeedPost1Time{
+	top:35px;
+	left:61px;
+	width:70px;
+	height:13px;
+}
+#newsFeedPost1ArrowMenu{
+	top:16px;
+	left:479px;
+	width:10px;
+	height:7px;
+}
+#newsFeedPost1Text1{
+	top:56px;
+	left:12px;
+	width:476px;
+	height:100px;
+}
+#newsFeedPost1Photo1{
+	top:152px;
+	left:12px;
+	width:157px;
+	height:157px;
+}
+#newsFeedPost1Photo2{
+	top:152px;
+	left:173px;
+	width:157px;
+	height:157px;
+}
+#newsFeedPost1Photo3{
+	top:152px;
+	left:333px;
+	width:157px;
+	height:157px;
+}
+#newsFeedPost1LikeCount{
+	top:324px;
+	left:12px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost1HorizontalDivider1{
+	top:335px;
+	left:12px;
+	width:476px;
+    height: 1px;
+	display: block;
+    border: 0;
+    border-top: 1px solid #E5E5E5;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#newsFeedPost1Like{
+	top:360px;
+	left:13px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost1LikeIcon{
+	top:0px;
+	left:0px;
+	width:16px;
+	height:16px;
+}
+#newsFeedPost1LikeName{
+	top:0px;
+	left:19px;
+	width:30px;
+	height:16px;
+}
+
+#newsFeedPost1Comment{
+	top:360px;
+	left:90px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost1CommentIcon{
+	top:1px;
+	left:0px;
+	width:16px;
+	height:16px;
+}
+#newsFeedPost1CommentName{
+	top:0px;
+	left:19px;
+	width:30px;
+	height:16px;
+}
+
+#newsFeedPost1Share{
+	top:360px;
+	left:198px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost1ShareIcon{
+	top:0px;
+	left:0px;
+	width:16px;
+	height:16px;
+}
+#newsFeedPost1ShareName{
+	top:0px;
+	left:20px;
+	width:30px;
+	height:16px;
+}
+
+.newsFeedPost2{
+	top:614px;
+	left:258px;
+	position:absolute;
+	width:500px;
+	height:540px;
+	background-color: #FFFFFF;
+	border-radius:2px/2px;
+}
+#newsFeedPost2ProfileIcon{
+	top:12px;
+	left:12px;
+	width:40px;
+	height:40px;
+}
+#newsFeedPost2Head{
+	top:14px;
+	left:61px;
+	width:300px;
+	height:13px;
+}
+#newsFeedPost2Time{
+	top:35px;
+	left:61px;
+	width:70px;
+	height:13px;
+}
+#newsFeedPost2ArrowMenu{
+	top:16px;
+	left:479px;
+	width:10px;
+	height:7px;
+}
+#newsFeedPost2Text1{
+	top:56px;
+	left:12px;
+	width:476px;
+	height:16px;
+}
+#newsFeedPost2Photo1{
+	top:90px;
+	left:12px;
+	width:475px;
+	height:248px;
+}
+#newsFeedPost2Text2{
+	top:337px;
+	left:12px;
+	width:448px;
+	height:100px;
+	border-style:solid;
+	border-top: none;
+	border-width: 2px;
+	border-color: #E5E5E5;
+	padding:12px;
+}
+#newsFeedPost2LikeCount{
+	top:475px;
+	left:12px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost2CommentsSharesCount{
+	top:475px;
+	left:345px;
+	width:140px;
+	height:16px;
+}
+#newsFeedPost2HorizontalDivider1{
+	top:490px;
+	left:12px;
+	width:476px;
+    height: 1px;
+	display: block;
+    border: 0;
+    border-top: 1px solid #E5E5E5;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#newsFeedPost2Like{
+	top:515px;
+	left:13px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost2LikeIcon{
+	top:0px;
+	left:0px;
+	width:16px;
+	height:16px;
+}
+#newsFeedPost2LikeName{
+	top:0px;
+	left:19px;
+	width:30px;
+	height:16px;
+}
+
+#newsFeedPost2Comment{
+	top:515px;
+	left:90px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost2CommentIcon{
+	top:1px;
+	left:0px;
+	width:16px;
+	height:16px;
+}
+#newsFeedPost2CommentName{
+	top:0px;
+	left:19px;
+	width:30px;
+	height:16px;
+}
+
+#newsFeedPost2Share{
+	top:515px;
+	left:198px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost2ShareIcon{
+	top:0px;
+	left:0px;
+	width:16px;
+	height:16px;
+}
+#newsFeedPost2ShareName{
+	top:0px;
+	left:20px;
+	width:30px;
+	height:16px;
+}
+
+.newsFeedPost3{
+	top:1166px;
+	left:258px;
+	position:absolute;
+	width:500px;
+	height:550px;
+	background-color: #FFFFFF;
+	border-radius:2px/2px;
+}
+#newsFeedPost3ProfileIcon{
+	top:12px;
+	left:12px;
+	width:40px;
+	height:40px;
+}
+#newsFeedPost3Head{
+	top:14px;
+	left:61px;
+	width:300px;
+	height:13px;
+}
+#newsFeedPost3Time{
+	top:35px;
+	left:61px;
+	width:70px;
+	height:13px;
+}
+#newsFeedPost3ArrowMenu{
+	top:16px;
+	left:479px;
+	width:10px;
+	height:7px;
+}
+#newsFeedPost3Text1{
+	top:56px;
+	left:12px;
+	width:476px;
+	height:16px;
+}
+#newsFeedPost3Photo1{
+	top:134px;
+	left:12px;
+	width:475px;
+	height:248px;
+}
+#newsFeedPost3Text2{
+	top:337px;
+	left:12px;
+	width:448px;
+	height:110px;
+	border-style:solid;
+	border-top: none;
+	border-width: 2px;
+	border-color: #E5E5E5;
+	padding:12px;
+}
+#newsFeedPost3LikeCount{
+	top:485px;
+	left:12px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost3CommentsSharesCount{
+	top:485px;
+	left:430px;
+	width:50px;
+	height:16px;
+}
+#newsFeedPost3HorizontalDivider1{
+	top:500px;
+	left:12px;
+	width:476px;
+    height: 1px;
+	display: block;
+    border: 0;
+    border-top: 1px solid #E5E5E5;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#newsFeedPost3Like{
+	top:525px;
+	left:13px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost3LikeIcon{
+	top:0px;
+	left:0px;
+	width:16px;
+	height:16px;
+}
+#newsFeedPost3LikeName{
+	top:0px;
+	left:19px;
+	width:30px;
+	height:16px;
+}
+
+#newsFeedPost3Comment{
+	top:525px;
+	left:90px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost3CommentIcon{
+	top:1px;
+	left:0px;
+	width:16px;
+	height:16px;
+}
+#newsFeedPost3CommentName{
+	top:0px;
+	left:19px;
+	width:30px;
+	height:16px;
+}
+
+#newsFeedPost3Share{
+	top:525px;
+	left:198px;
+	width:40px;
+	height:16px;
+}
+#newsFeedPost3ShareIcon{
+	top:0px;
+	left:0px;
+	width:16px;
+	height:16px;
+}
+#newsFeedPost3ShareName{
+	top:0px;
+	left:20px;
+	width:30px;
+	height:16px;
+}
+
+.sideboxSuggestions{
+	top:55px;
+	left:770px;
+	width:308px;
+	height:667px;
+	position:absolute;
+	background-color: #FFFFFF;
+	font-family:helvetica;
+	border-radius:2px/2px;
+}
+#sideboxSuggestionsBDay{
+	top:12px;
+	left:12px;
+	width:250px;
+	height:24px;
+}
+#sideboxSuggestionsBDayIcon{
+	top:0px;
+	left:0px;
+	width:16px;
+	height:16px;
+}
+#sideboxSuggestionsBDayName{
+	top:1px;
+	left:21px;
+	width:200px;
+	height:16px;
+}
+#sideboxSuggestionsHorizontalDivider{
+	top:24px;
+	left:12px;
+	width:284px;
+    height: 1px;
+	display: block;
+    border: 0;
+    border-top: 1px solid #E5E5E5;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#sideboxSuggestionsSuggestedGroups{
+	top:53px;
+	left:12px;
+	width:284px;
+    height:16px;
+	font-weight:bold;
+}
+
+#sideboxSuggestionsGroup1{
+	top:76px;
+	left:12px;
+	width:282px;
+    height:169px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: #E5E5E5;
+	border-radius:2px/2px;
+}
+#sideboxSuggestionsGroup1Pic{
+	top:0px;
+	left:0px;
+	width:282px;
+    height:122px;
+}
+#sideboxSuggestionsGroup1Title{
+	top:130px;
+	left:8px;
+	width:180px;
+    height:16px;
+}
+#sideboxSuggestionsGroup1Members{
+	top:146px;
+	left:8px;
+	width:200px;
+    height:16px;
+}
+#sideboxSuggestionsGroup1JoinButton{
+	top:133px;
+	left:220px;
+	width:54px;
+    height:24px;
+}
+
+#sideboxSuggestionsGroup2{
+	top:260px;
+	left:12px;
+	width:282px;
+    height:185px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: #E5E5E5;
+	border-radius:2px/2px;
+}
+#sideboxSuggestionsGroup2Pic{
+	top:0px;
+	left:0px;
+	width:282px;
+    height:122px;
+}
+#sideboxSuggestionsGroup2Title{
+	top:130px;
+	left:8px;
+	width:180px;
+    height:16px;
+}
+#sideboxSuggestionsGroup2Members{
+	top:160px;
+	left:8px;
+	width:200px;
+    height:16px;
+}
+#sideboxSuggestionsGroup2JoinButton{
+	top:140px;
+	left:220px;
+	width:54px;
+    height:24px;
+}
+
+#sideboxSuggestionsGroup3{
+	top:459px;
+	left:12px;
+	width:282px;
+    height:169px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: #E5E5E5;
+	border-radius:2px/2px;
+}
+#sideboxSuggestionsGroup3Pic{
+	top:0px;
+	left:0px;
+	width:282px;
+    height:122px;
+}
+#sideboxSuggestionsGroup3Title{
+	top:130px;
+	left:8px;
+	width:180px;
+    height:16px;
+}
+#sideboxSuggestionsGroup3Members{
+	top:146px;
+	left:8px;
+	width:200px;
+    height:16px;
+}
+#sideboxSuggestionsGroup3JoinButton{
+	top:133px;
+	left:220px;
+	width:54px;
+    height:24px;
+}
+
+#sideboxSuggestionsSeeAll{
+	top:639px;
+	left:12px;
+	width:50px;
+    height:16px;
+}
+
+.sideboxLanguages{
+	top:735px;
+	left:770px;
+	width:308px;
+	height:55px;
+	position:absolute;
+	background-color: #FFFFFF;
+	font-family:helvetica;
+	border-radius:2px/2px;
+}
+#sideboxLanguagesLanguagesList{
+	top:12px;
+	left:12px;
+	width:220px;
+	height:16px;
+}
+#sideboxLanguagesPlusButton{
+	top:12px;
+	left:262px;
+	width:34px;
+	height:28px;
+}
+
+.sideboxBottom{
+	top:797px;
+	left:770px;
+	position:absolute;
+	width:265px;
+	height:80px;
+	font-family:helvetica;
+}
+#sideboxBottomMenu{
+	top:4px;
+	left:0px;
+	width:265px;
+	height:80px;
+}
+#sideboxBottomHorizontalDivider1{
+	top:27px;
+	left:0px;
+	width:265px;
+    height: 1px;
+	display: block;
+    border: 0;
+    border-top: 1px solid #D9D9D9;
+    margin: 1em 0;
+    padding: 0;
+}
+#sideboxBottomCookies{
+	top:50px;
+	left:0px;
+	width:265px;
+	height:80px;
+}
+#sideboxBottomHorizontalDivider2{
+	top:71px;
+	left:0px;
+	width:265px;
+    height: 1px;
+	display: block;
+    border: 0;
+    border-top: 1px solid #D9D9D9;
+    margin: 1em 0;
+    padding: 0;
+}
+#sideboxBottomCopyright{
+	top:100px;
+	left:0px;
+	width:265px;
+	height:80px;
+}
+
+.chat{
+	top:44px;
+	left:1143px;
+	position:absolute;
+	width:180px;
+	height:600px;
+	font-family:helvetica;
+}
+#chatVerticalBorder{
+	border-left:1px solid #CCCCCC;
+	top:-1px;
+	left:0px;
+	height:600px;
+}
+
+#chatNameGeneral{
+	top:13px;
+	left:50px;
+	width:118px;
+	height:16px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+#chatProfile1{
+	top:5px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile1Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile1Status{
+	top:15px;
+	left:170px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile2{
+	top:45px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile2Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile2Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile3{
+	top:85px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile3Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile3Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile4{
+	top:125px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile4Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile4Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile5{
+	top:165px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile5Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile5Status{
+	top:15px;
+	left:179px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile6{
+	top:205px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile6Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile6Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile7{
+	top:245px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile7Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile7Status{
+	top:15px;
+	left:170px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile8{
+	top:285px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile8Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile8Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile9{
+	top:325px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile9Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile9Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile10{
+	top:365px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile10Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile10Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile11{
+	top:405px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile11Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile11Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile12{
+	top:445px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile12Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile12Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile13{
+	top:485px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile13Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile13Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile14{
+	top:525px;
+	left:2px;
+	width:203px;
+	height:40px;
+	font-size:12px;
+}
+#chatProfile14Icon{
+	top:4px;
+	left:11px;
+	width:32px;
+	height:32px;
+}
+#chatProfile14Status{
+	top:17px;
+	left:181px;
+	width:8px;
+	height:8px;
+}
+
+#chatProfile1:hover{background:#DDDFE2;}
+#chatProfile2:hover{background:#DDDFE2;}
+#chatProfile3:hover{background:#DDDFE2;}
+#chatProfile4:hover{background:#DDDFE2;}
+#chatProfile5:hover{background:#DDDFE2;}
+#chatProfile6:hover{background:#DDDFE2;}
+#chatProfile7:hover{background:#DDDFE2;}
+#chatProfile8:hover{background:#DDDFE2;}
+#chatProfile9:hover{background:#DDDFE2;}
+#chatProfile10:hover{background:#DDDFE2;}
+#chatProfile11:hover{background:#DDDFE2;}
+#chatProfile12:hover{background:#DDDFE2;}
+#chatProfile13:hover{background:#DDDFE2;}
+#chatProfile14:hover{background:#DDDFE2;}
+
+.chatMenu{
+	top:618px;
+	left:1144px;
+	position:absolute;
+	width:204px;
+	height:24px;
+	background-color: #F6F7F9;
+}
+#chatMenuHorizontalDivider1{
+	border-top:1px solid #CCCCCC;
+	top:0px;
+	left:0px;
+	height:1px;
+}
+#chatMenuHorizontalDivider2{
+	border-top:1px solid #CCCCCC;
+	top:25px;
+	left:0px;
+	height:1px;
+}
+#chatMenuSearchIcon{
+	top:6px;
+	left:10px;
+	width:12px;
+	height:12px;
+}
+#chatMenuSearchBox{
+	top:7px;
+	left:28px;
+	width:125px; 
+	height:12px; 
+	border:none; 
+    outline:0;
+	color:black;
+}
+#chatSearchboxPlaceholder{
+	width:122px;
+	height:12px;
+	padding:0px;
+	outline:none;
+	border: 0px none;
+	font-size:12px;
+	font-family:helvetica;
+	background-color: #F6F7F9;
+}
+#chatMenuOptions{
+	top:6px;
+	left:156px;
+	width:12px;
+	height:12px;
+}
+#chatMenuNewMessage{
+	top:5px;
+	left:180px;
+	width:13px;
+	height:13px;
+}
